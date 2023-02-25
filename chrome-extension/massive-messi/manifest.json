@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "massive-messi",
+  "version": "1.0",
+  "description": "All images you are watching in browser is gonna be changed to messi's images",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
